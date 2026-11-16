@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">MyPortfolio.</a>
+      </div>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="page-header">
+      <h1>Featured Projects</h1>
+      <p>Here are some of the web development projects I have built.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>E-Commerce Web Store</h3>
+        <p>A full responsive frontend web store with cart functionality, product filter, and clean checkout UI.</p>
+        <div class="tags" style="margin-bottom: 1.2rem;">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.85rem;">View Demo &rarr;</a>
+      </div>
+
+      <div class="card">
+        <h3>Task Management App</h3>
+        <p>Interactive to-do and kanban style application featuring local storage persistence and drag-and-drop actions.</p>
+        <div class="tags" style="margin-bottom: 1.2rem;">
+          <span class="tag">JavaScript</span>
+          <span class="tag">DOM Manipulation</span>
+          <span class="tag">LocalStorage</span>
+        </div>
+        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.85rem;">View Demo &rarr;</a>
+      </div>
+
+      <div class="card">
+        <h3>Weather Forecast Dashboard</h3>
+        <p>Real-time weather tracking dashboard consuming REST API endpoints to render 5-day forecasts and metrics.</p>
+        <div class="tags" style="margin-bottom: 1.2rem;">
+          <span class="tag">Fetch API</span>
+          <span class="tag">Async/Await</span>
+          <span class="tag">CSS Flex/Grid</span>
+        </div>
+        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.85rem;">View Demo &rarr;</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Portfolio. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
